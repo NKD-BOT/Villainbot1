@@ -53,14 +53,16 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/yt_farman"),
           ],
                
-              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg"),
+              InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://iili.io/2MiEx7S.jpg"),
               ],
               
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/faa1f3ad7116e33d9f402.jpg",
+        photo="https://iili.io/2MiEx7S.jpg")
+        
+    ",
         caption=start_txt,
         reply_markup=reply_markup
     )
